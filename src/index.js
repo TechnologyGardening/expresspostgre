@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import HookComp1 from "./HookComp1";
+import HookUseEffectClean2 from "./HookUseEffectClean2";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 function render() {
-  root.render(<HookComp1 />);
+  root.render(<HookUseEffectClean2 />);
 }
 render();
